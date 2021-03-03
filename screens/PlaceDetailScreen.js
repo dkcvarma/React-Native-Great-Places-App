@@ -7,7 +7,7 @@ const PlaceDetailScreen = props => {
       <Text>PlaceDetailScreen</Text>
     </View>
   );
-}
+};
 
 PlaceDetailScreen.navigationOptions = navData => {
   return {
