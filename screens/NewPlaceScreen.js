@@ -18,7 +18,7 @@ const NewPlaceScreen = props => {
   const dispatch = useDispatch();
 
   const titleChangeHandler = test => {
-    setTitleValue(text);
+    setTitleValue(test);
   }
 
   const savePlaceHandler = () => {
