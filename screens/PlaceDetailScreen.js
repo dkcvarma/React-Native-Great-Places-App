@@ -6,7 +6,7 @@ import MapPreview from '../components/MapPreview';
 import Colors from '../constants/Colors';
 
 const PlaceDetailScreen = props => {
-  const placeId = props.navigation.getParam('PlaceId');
+  const placeId = props.navigation.getParam('placeId');
   const selectedPlace = useSelector(state =>
     state.places.places.find(place => place.id === placeId)
   );

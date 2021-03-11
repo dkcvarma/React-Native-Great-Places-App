@@ -61,7 +61,7 @@ const MapScreen = props => {
 
 MapScreen.navigationOptions = navData => {
   const saveFn = navData.navigation.getParam('saveLocation');
-  const readOnly = props.navigation.getParam('readonly');
+  const readOnly = navData.navigation.getParam('readonly');
   if (readOnly) {
     return {};
   }
